@@ -1,0 +1,45 @@
+body{
+  background-image: url('/Users/gajjarsaurabh/Downloads/polygon-background-psd-10.jpg/');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+html{
+  height: 100%;
+}
+ol {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+}
+ul{
+  float: right;
+}
+div > li{
+  float: left;    /*  by using this all the individual elements(li elements) will wrap around the previous li elements from right or vice versa */
+  margin-right: 150px;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+}
+td,th {
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid #2e2e2e;
+  border-left: 1px solid #2e2e2e;
+}
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(even){
+  background: #f5f5dc;
+}
+tr:nth-child(odd){
+  background: grey;
+}
